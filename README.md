@@ -45,3 +45,6 @@ npm run dev
 **Deployment:** Vercel
 
 
+## License
+
+This project is licensed under the MIT license. 
