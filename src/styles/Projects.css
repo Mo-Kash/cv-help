@@ -1,0 +1,51 @@
+.submit-projects-btn{
+    width: 25%;
+    height: 10%;
+    margin-left: 40%;
+    margin-top: 15px;
+}
+
+.remove-project-btn, .add-project-btn{
+    appearance: none;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.remove-project-btn img, .add-project-btn img{
+    width: 20px;
+    height: auto;
+}
+
+.remove-project-btn img:hover, .add-project-btn img:hover{
+    width: 25px;
+    height: auto;
+}
+
+.projects{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+.projForm{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:left;
+    gap: 5px;
+    border-bottom: 2px dashed var(--darkblack);
+}
+
+.projForm ul{
+    width: 100%;
+    padding: 0;
+}
+
+.projForm li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}

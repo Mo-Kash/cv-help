@@ -1,0 +1,25 @@
+/* print.css */
+@media print {
+    body * {
+      visibility: hidden; /* Hide everything by default */
+    }
+  
+    .cv-result, .cv-result * {
+      visibility: visible; /* Only show the CV content */
+    }
+  
+    .cv-result {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      margin: 0;
+      padding: 50px;
+    }
+    @page{
+        size: auto;
+        margin: 0;
+    }
+  
+    /* Add any additional print-specific styles here */
+  }

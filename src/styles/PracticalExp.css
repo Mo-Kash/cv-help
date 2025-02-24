@@ -1,0 +1,52 @@
+.practForm{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:left;
+    gap: 5px;
+    border-bottom: 2px dashed var(--darkblack);
+}
+
+.practForm ul{
+    padding: 0;
+    width: 100%;    
+}
+
+.practForm li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.submit-companies{
+    margin-top: 15px;
+    width: 35%;
+    height: 10%;
+    margin-left: 35%;
+}
+
+.remove-company-btn, .add-company-btn{
+    appearance: none;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.remove-company-btn img, .add-company-btn img{
+    width: 20px;
+    height: auto;
+}
+
+.remove-company-btn img:hover, .add-company-btn img:hover{
+    width: 25px;
+    height: auto;
+}
+
+.practical{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
