@@ -1,51 +1,52 @@
-.submit-projects-btn{
-    width: 25%;
-    height: 10%;
-    margin-left: 40%;
-    margin-top: 15px;
+.projects {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    background: ghostwhite;
+    padding: 20px;
+    border-radius: var(--border-radius);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    width: 90%;
 }
 
-.remove-project-btn, .add-project-btn{
-    appearance: none;
-    background-color: transparent;
-    outline: none;
+.projForm {
+    background: var(--accent-color);
+    padding: 15px;
+    border-radius: var(--border-radius);
+    margin-bottom: 10px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+    color: var(--bg-color);
+}
+
+.projForm ul {
+    list-style: none;
+    padding: 0;
+}
+
+.projForm li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.add-project-btn, .remove-project-btn {
+    width: 50px;
+    height: 50px;
+    background: none;
     border: none;
     cursor: pointer;
 }
 
-.remove-project-btn img, .add-project-btn img{
-    width: 20px;
-    height: auto;
-}
-
-.remove-project-btn img:hover, .add-project-btn img:hover{
-    width: 25px;
-    height: auto;
-}
-
-.projects{
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 100px;
-}
-
-.projForm{
-    display: flex;
-    flex-direction: column;
-    align-items:center;
-    justify-content:left;
-    gap: 5px;
-    border-bottom: 2px dashed var(--darkblack);
-}
-
-.projForm ul{
+.add-project-btn img, .remove-project-btn img {
     width: 100%;
-    padding: 0;
+    height: 100%;
+    object-fit: contain;
 }
 
-.projForm li{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 50px;
+.submit-projects-btn {
+    width: 250px;
+    margin-top: 15px;
 }

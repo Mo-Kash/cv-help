@@ -1,52 +1,55 @@
-.practForm{
+.practical {
     display: flex;
     flex-direction: column;
-    align-items:center;
-    justify-content:left;
-    gap: 5px;
-    border-bottom: 2px dashed var(--darkblack);
+    align-items: stretch;
+    justify-content: center;
+    background: ghostwhite;
+    width: 90%;
+    padding: 20px;
+    border-radius: var(--border-radius);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
 }
 
-.practForm ul{
+.practForm {
+    background: var(--accent-color);
+    padding: 15px;
+    border-radius: var(--border-radius);
+    margin-bottom: 10px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.practForm ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style: none;
     padding: 0;
-    width: 100%;    
+    color: var(--bg-color);
 }
 
-.practForm li{
+.practForm li {
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 50px;
+    justify-content: space-between;
+    gap: 10px;
 }
 
-.submit-companies{
-    margin-top: 15px;
-    width: 35%;
-    height: 10%;
-    margin-left: 35%;
-}
-
-.remove-company-btn, .add-company-btn{
-    appearance: none;
-    background-color: transparent;
-    outline: none;
+.add-company-btn, .remove-company-btn {
+    width: 50px;
+    height: 50px;
+    background: none;
     border: none;
     cursor: pointer;
 }
 
-.remove-company-btn img, .add-company-btn img{
-    width: 20px;
-    height: auto;
+.add-company-btn img, .remove-company-btn img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
-.remove-company-btn img:hover, .add-company-btn img:hover{
-    width: 25px;
-    height: auto;
+.submit-companies {
+    width: 250px;
+    margin-top: 15px;
 }
-
-.practical{
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 30px;
-}
-

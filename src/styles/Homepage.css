@@ -1,7 +1,7 @@
 @import "../index.css";
 
 .body{
-    background-color: var(--black);
+    background-color: var(--bg-color);
 }
 
 .home-page{
@@ -26,7 +26,7 @@
   border-width: 0;
   box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
   box-sizing: border-box;
-  color: var(--black);
+  color: var(--bg-color);
   cursor: pointer;
   display: inline-flex;
   font-family: "Poppins", serif;
@@ -56,6 +56,7 @@
 .create-cv-btn:hover {
   box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
   transform: translateY(-2px);
+  background-color: #FCFCFD;
 }
 
 .create-cv-btn:active {

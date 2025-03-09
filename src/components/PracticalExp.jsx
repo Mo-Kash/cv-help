@@ -58,9 +58,7 @@ const PracticalExp = () => {
   return (
     <div className='practical'>
       <p className="subsection">Work Experience</p>
-      <div className="for-border">
-        <button type='button' className='add-company-btn' onClick={()=>addCompanyForm()}><img src={addicon}/></button>
-      </div>
+      <button type='button' className='add-company-btn' onClick={()=>addCompanyForm()}><img src={addicon}/></button>
       <form id='practical-form' onSubmit={handleSubmit}>
         {
           companies.map((element)=>(
