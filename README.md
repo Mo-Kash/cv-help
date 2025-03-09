@@ -6,7 +6,7 @@
 
 ## 🚀 Demo
 
-https://cv-help-od6ogwkit-mo-kashs-projects.vercel.app/
+https://mokash-cv-helper.netlify.app/
 ## 🛠️ Installation
 
 Install my-project with npm
